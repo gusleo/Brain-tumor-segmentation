@@ -216,6 +216,7 @@ if __name__ == '__main__':
     path_HGG = glob('Data/Brats2017/Training/HGG/**')
     path_LGG = glob('Data/Brats2017/Training/LGG/**')
     path_all=path_HGG+path_LGG
+    print(path_all)
 
     #shuffle the dataset
     np.random.seed(2022)
